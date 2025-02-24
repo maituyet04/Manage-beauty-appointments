@@ -1,5 +1,5 @@
 
-# Website đặt lịch làm đẹp trực tuyến
+# Website đặt lịch làm đẹp trực tuyến (Maii)
 ## Lưu Mai Tuyết - 22010226
 
 ### 1. Mô tả đề tài
@@ -37,4 +37,13 @@ Xem, cập nhật lịch hẹn của khách hàng theo ngày, tuần, tháng. X�
 Báo cáo doanh thu, số lượng khách hàng theo ngày, tuần, tháng.
 
 ### 3. Phân tích và thiết kế phần mềm
+
+#### 3.1. Class Diagram
+![Class Diagram](https://i.imgur.com/TlPnhf3.png)
+
+#### 3.2. Sequence Diagram
+![Sequence Diagram](https://i.imgur.com/8wSK6zZ.png)
+
+#### 3.3. Use-Case
+![Use-case](https://i.imgur.com/Jshz234.png)
 
