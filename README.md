@@ -18,10 +18,6 @@ Cung cấp danh sách dịch vụ (làm tóc, làm móng, chăm sóc da, làm m�
 
 Chọn dịch vụ, thời gian có sẵn.
 
-##### Thanh toán trực tuyến:
-
-Hỗ trợ thanh toán qua thẻ ngân hàng, ví điện tử hoặc khi đến trực tiếp.
-
 #### Dành cho quản lý
 
 ##### Quản lý dịch vụ:
@@ -39,11 +35,61 @@ Báo cáo doanh thu, số lượng khách hàng theo ngày, tuần, tháng.
 ### 3. Phân tích và thiết kế phần mềm
 
 #### 3.1. Class Diagram
-![Class Diagram](https://i.imgur.com/TlPnhf3.png)
+![Class Diagram](https://i.imgur.com/RnCyeMv.png)
 
 #### 3.2. Sequence Diagram
-![Sequence Diagram](https://i.imgur.com/8wSK6zZ.png)
+![Sequence Diagram](https://i.imgur.com/QdUbAX7.png)
 
 #### 3.3. Use-Case
-![Use-case](https://i.imgur.com/Jshz234.png)
+![Use-case](https://i.imgur.com/oKPdhPY.png)
+
+### 4. Hướng dẫn cài đặt
+#### 4.1. Clone dự án về máy
+https://github.com/maituyet04/Manage-beauty-appointments
+
+cd booking
+
+#### 4.2. Cài đặt các thư viện phụ thuộc
+Đảm bảo bạn đã cài Composer, sau đó chạy:
+
+composer install
+
+npm install
+#### 4.3. Thiết lập biến môi trường
+cp .env.example .env
+
+php artisan key:generate
+#### 4.4. Cấu hình cơ sở dữ liệu
+Chỉnh sửa file .env để khớp với cấu hình cơ sở dữ liệu trên máy của bạn.
+
+Sau đó chạy Migration và Seed. Tạo các bảng trong cơ sở dữ liệu:
+
+php artisan migrate --seed
+#### 4.5. Chạy ứng dụng
+Khởi động server bằng lệnh:
+
+php artisan serve
+
+Mở trình duyệt và truy cập vào địa chỉ:
+
+http://127.0.0.1:8000
+
+### 5. Giao diện
+#### 5.1. Admin
+##### Đăng ký/đăng nhập
+![Đăng ký/đăng nhập](https://i.imgur.com/ao03l9Q.png)
+##### Trang danh mục
+![Trang danh mục](https://i.imgur.com/bBobwNz.png)
+##### Trang dịch vụ
+![Trang dịch vụ](https://i.imgur.com/HAA1Md2.png)
+##### Trang home
+![Trang home](https://i.imgur.com/jDi22Gy.png)
+
+### 6. Hạn chế
+- Chưa hoàn thiện chức năng booking cho khách hàng
+- Chưa hoàn thiện chức năng quản lý lịch hẹn và tạo báo cáo cho admin
+- Chưa hoàn thiện giao diện.
+
+
+
 
