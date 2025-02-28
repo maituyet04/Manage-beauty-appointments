@@ -82,6 +82,7 @@ http://127.0.0.1:8000
 ![Trang danh mục](https://i.imgur.com/bBobwNz.png)
 ##### Trang dịch vụ
 ![Trang dịch vụ](https://i.imgur.com/HAA1Md2.png)
+#### 5.2. Khách hàng
 ##### Trang home
 ![Trang home](https://i.imgur.com/jDi22Gy.png)
 
